@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(231, 226, 226);
+}
+body {
+    background-image: url("universe-2303321_960_720.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.texto {
+    color: white;
+    margin-right: 10px;
+    margin-top: 2px;
+    
+
+}
+#data {
+    color: black;
+}
+
+.principal{
+    width: 80%;
+    margin: 0 auto;
+   display: block;
+  
+}
+
+.box{
+    display: flex;
+    margin: 6%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.boxNasa{
+   display: flex;
+   justify-content: space-evenly;
+   
+   
+}
+
+#titulo{
+width: 45%;
+font-weight: bold;
+margin-left: 25px;
+text-align: justify;
+border-radius: 10px;
+padding: 10px;
+
+}
+
+#foto{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 280px;   
+   
+}
+#botao {
+    width: 120px;
+    height: 30px;
+    border-radius: 10px black;
+    color:black;
+    font-family: sans-serif;
+}
